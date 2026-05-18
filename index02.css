@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f3f3f3;
+
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.card {
+  width: 900px;
+  height: 420px;
+
+  background-color: #f5efe6;
+
+  border-radius: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 35px;
+}
+
+.title {
+  color: #ff6b81;
+
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#result-box {
+  width: 470px;
+  height: 95px;
+
+  border: 3px dashed #ff9eb5;
+  border-radius: 18px;
+
+  background-color: #fff1f5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  color: #ff4d73;
+
+  font-size: 34px;
+  font-weight: 700;
+
+  padding: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+
+  gap: 18px;
+}
+
+button {
+  width: 120px;
+  height: 48px;
+
+  border: 2px solid #ffb6c8;
+  border-radius: 10px;
+
+  background-color: #ffdce5;
+
+  color: #8b4b5c;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ffc2d1;
+
+  transform: scale(1.05);
+}
