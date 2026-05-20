@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 1000px;
+  height: 1000px;
+  background-color: lightskyblue;
+  margin-inline: auto;
+  margin-top: 200px;
+  position: relative;
+  border: 1px solid red;
+  padding: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.zurag {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-size: contain;
+  margin-inline: auto;
+  border-radius: 30px;
+}
+
+.tovcluur {
+  width: 800px;
+  height: 80px;
+  background-color: green;
+  border-radius: 999px;
+}
